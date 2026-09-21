@@ -73,3 +73,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/Assets/Library
+/Assets/Temp
+/White Squirrels of Norcross/Library
+/White Squirrels of Norcross/UserSettings
+/White Squirrels of Norcross/Temp
