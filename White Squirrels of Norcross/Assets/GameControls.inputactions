@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "name": "GameControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "125c25ca-c5bd-4fd0-8b65-a52f6bf881e7",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "f3de6c15-e559-4d6b-bd6b-c378a6423bd6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}
