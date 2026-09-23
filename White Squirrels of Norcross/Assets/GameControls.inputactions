@@ -7,7 +7,7 @@
             "id": "125c25ca-c5bd-4fd0-8b65-a52f6bf881e7",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Movement",
                     "type": "Value",
                     "id": "f3de6c15-e559-4d6b-bd6b-c378a6423bd6",
                     "expectedControlType": "Vector2",
@@ -16,7 +16,63 @@
                     "initialStateCheck": true
                 }
             ],
-            "bindings": []
+            "bindings": [
+                {
+                    "name": "Vector",
+                    "id": "b38aa948-4bc3-4b3d-9ca4-6ff35040cdb9",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "7ec7e5eb-d514-4962-96b7-fcdb6f5441d8",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "a15adede-caba-47b4-b335-df064d3a0053",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "1723a1db-51a8-4e65-89a6-6d7d24d11fad",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "e9cff0cd-cf43-4db5-9dc5-6d06dbd2f49d",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
         }
     ],
     "controlSchemes": []
