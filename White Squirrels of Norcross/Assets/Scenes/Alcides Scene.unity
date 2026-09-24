@@ -678,7 +678,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &1390589222
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -798,6 +798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635dfe1fb3cb8f149a69de2eb0f37d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentPlayerSpeed: 0
 --- !u!1 &1756216079
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,7 +922,19 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1844042785}
+        m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
+        m_MethodName: ToMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: f3de6c15-e559-4d6b-bd6b-c378a6423bd6
     m_ActionName: Player/Movement
   m_NeverAutoSwitchControlSchemes: 0

@@ -8,6 +8,9 @@ public class InputManager : MonoBehaviour
 
     //C# Events for invoking any method which subscribes to them
     public static event Action<Vector2> OnInputMove; //Event for when movement detected
+    private Vector2 moveInput; //Dedicated Vector2 which constantly gets updated for movement
+    private bool isMoving; // Dedicated Bool, used to know when player is moving or not
+
     public static event Action OnInputJump;
     public static event Action OnInputAction;
 
@@ -15,8 +18,15 @@ public class InputManager : MonoBehaviour
 
     public void ToMove(InputAction.CallbackContext context)
     {
-        Vector2 moveInput = context.ReadValue<Vector2>();
-        OnInputMove?.Invoke(moveInput);
+        if (context.performed)
+        {
+            moveInput = context.ReadValue<Vector2>();
+            isMoving = true;
+        }
+        if (context.canceled)
+        {
+            isMoving = false;
+        }
     }
     public void ToJump(InputAction.CallbackContext context)
     {
@@ -34,6 +44,7 @@ public class InputManager : MonoBehaviour
     }
     void Awake()
     {
+        //Perm Instance of InputManager is created if no other Input manager exists
         if(Instance != null & Instance != this)
         {
             Destroy(gameObject);
@@ -45,6 +56,16 @@ public class InputManager : MonoBehaviour
 
     void Update()
     {
-        
+        if (isMoving)
+        {
+            ToggleMove();
+        }
     }
+
+    private void ToggleMove()
+    {
+        OnInputMove?.Invoke(moveInput);
+    }
+
+
 }
