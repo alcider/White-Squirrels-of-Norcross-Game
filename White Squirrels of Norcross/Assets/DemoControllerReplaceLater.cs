@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -6,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 10f;
     private bool isGrounded;
     private Rigidbody2D rb;
+    public TextMeshPro acorns;
+    private int numberAcorns;
 
     void Start()
     {
@@ -16,13 +19,15 @@ public class PlayerController : MonoBehaviour
     {
         // Horizontal movement only
         float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
         // Jump if grounded
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
+        numberAcorns = collect.numAcorns + BigAcorns.numAcorns;
+        acorns.text = "Acorns: " + numberAcorns;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
