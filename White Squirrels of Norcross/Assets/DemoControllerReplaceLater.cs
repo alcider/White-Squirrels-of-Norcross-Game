@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
             isGrounded = true;
+        if (collision.gameObject.CompareTag("Enemy"))
+            Destroy(gameObject);
     }
 
     void OnCollisionExit2D(Collision2D collision)
