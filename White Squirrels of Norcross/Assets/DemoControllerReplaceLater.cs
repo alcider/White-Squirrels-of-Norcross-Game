@@ -7,8 +7,6 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 10f;
     private bool isGrounded;
     private Rigidbody2D rb;
-    public TextMeshPro acorns;
-    private int numberAcorns;
 
     void Start()
     {
@@ -26,8 +24,6 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
-        numberAcorns = collect.numAcorns + BigAcorns.numAcorns;
-        acorns.text = "Acorns: " + numberAcorns;
     }
 
     void OnCollisionEnter2D(Collision2D collision)

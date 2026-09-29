@@ -1,8 +1,10 @@
+using TMPro;
 using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+
     //Adustable player speed, adjusted within unity editor
     [SerializeField] float CurrentPlayerSpeed;
 
