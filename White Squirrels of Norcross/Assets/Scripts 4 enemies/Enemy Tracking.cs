@@ -3,7 +3,7 @@ using System.Collections;
 public class EnemyTracking : MonoBehaviour
 {
     public GameObject player;
-    private int speed;
+    public int speed;
     void Start()
     {
         speed = 3;
