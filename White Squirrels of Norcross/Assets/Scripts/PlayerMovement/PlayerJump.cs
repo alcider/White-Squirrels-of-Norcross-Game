@@ -3,7 +3,10 @@ using UnityEngine;
 public class PlayerJump : MonoBehaviour
 {
     [SerializeField] float CurrentJumpForce;
+    [SerializeField] Transform FloorLocation;
+    [SerializeField] LayerMask FloorLayer;
     Rigidbody2D rb;
+
 
     private void OnEnable()
     {
@@ -25,6 +28,12 @@ public class PlayerJump : MonoBehaviour
 
     private void JumpPlayer()
     {
-        rb.AddForce(Vector2.up * CurrentJumpForce, ForceMode2D.Impulse);
+        float sphereRadius = 0.4f;
+        bool isGrounded = Physics2D.Raycast(FloorLocation.position, Vector2.down, sphereRadius, FloorLayer);
+        if (isGrounded)
+        {
+            rb.AddForce(Vector2.up * CurrentJumpForce, ForceMode2D.Impulse);
+        }
+        
     }
 }
