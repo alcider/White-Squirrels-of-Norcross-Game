@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class collect : MonoBehaviour
 {
-    public TextMeshPro acornCounter;
+    public TextMeshProUGUI acornCounter;
     public static int numAcorns;
     public int NumberAcorns;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

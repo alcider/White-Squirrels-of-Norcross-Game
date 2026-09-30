@@ -5,7 +5,7 @@ public class BigAcorns : MonoBehaviour
 {
     public static int numberAcorns;
     public int NumberOfAcorns;
-    public TextMeshPro acorncollectioncounter;
+    public TextMeshProUGUI acorncollectioncounter;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

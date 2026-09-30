@@ -101,6 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acornCounter: {fileID: 1157600898830876660, guid: 394c2116227635a4cb99e4a63eaa8788, type: 3}
+  NumberAcorns: 0
 --- !u!61 &4068994728109728573
 BoxCollider2D:
   m_ObjectHideFlags: 0
