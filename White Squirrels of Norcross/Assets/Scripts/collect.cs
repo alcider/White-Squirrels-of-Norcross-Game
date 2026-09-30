@@ -11,9 +11,9 @@ public class collect : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter2D(Collision2D collision) 
+    void OnTriggerEnter2D(Collider2D collider) 
 	{
-		if(collision.gameObject.CompareTag("Player"))
+		if(collider.gameObject.CompareTag("Player"))
 		{
             numAcorns += 1;
 			Destroy(gameObject);
