@@ -18,15 +18,8 @@ public class InputManager : MonoBehaviour
 
     public void ToMove(InputAction.CallbackContext context)
     {
-        if (context.performed)
-        {
-            moveInput = context.ReadValue<Vector2>();
-            isMoving = true;
-        }
-        if (context.canceled)
-        {
-            isMoving = false;
-        }
+         moveInput = context.ReadValue<Vector2>();
+         OnInputMove?.Invoke(moveInput);
     }
     public void ToJump(InputAction.CallbackContext context)
     {
@@ -56,15 +49,12 @@ public class InputManager : MonoBehaviour
 
     void Update()
     {
-        if (isMoving)
-        {
-            ToggleMove();
-        }
+
     }
 
     private void ToggleMove()
     {
-        OnInputMove?.Invoke(moveInput);
+        
     }
 
 
