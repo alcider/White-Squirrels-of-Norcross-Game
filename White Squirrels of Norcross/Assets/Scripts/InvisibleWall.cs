@@ -5,6 +5,8 @@ using UnityEngine.UIElements;
 public class InvisibleWall : MonoBehaviour
 {
     SpriteRenderer w_renderer;
+    bool hasBeenFound = false;
+    public static int secretsFound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,6 +17,11 @@ public class InvisibleWall : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player")){
             w_renderer.color = new Color(1f, 1f, 1f, 0.5f);
+            if (hasBeenFound == false)
+            {
+                secretsFound += 1;
+                hasBeenFound = true;
+            }
         }
     }
 
