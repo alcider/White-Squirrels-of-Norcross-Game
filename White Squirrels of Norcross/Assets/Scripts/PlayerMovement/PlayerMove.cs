@@ -5,36 +5,47 @@ public class PlayerMove : MonoBehaviour
 {
     //Adustable player speed, adjusted within unity editor
     [SerializeField] float CurrentPlayerSpeed;
-
+    Vector2 currentMoveVector;
     //Reference to 2dRigidbody and 2dRigbidbody slidemovement reference
     Rigidbody2D rb;
 
     //Subscriptions to InputManagers C# events, within OnEnable and OnDisable
     private void OnEnable()
     {
-        InputManager.OnInputMove += MovePlayer;
+        InputManager.OnInputMove += UpdateMoveVector;
     }
     private void OnDisable()
     {
-        InputManager.OnInputMove -= MovePlayer;
+        InputManager.OnInputMove -= UpdateMoveVector;
     }
 
 
-    void Start()
+    void Awake()
     {
         //Connected Component on GameObject is referenced to the variable "rb"
         rb = GetComponent<Rigidbody2D>();
     }
     private void FixedUpdate()
     {
+        MovePlayer();
         SpeedHandlerPlayer();
     }
 
     //Method which moves player with given Vector2 variable
-    private void MovePlayer(Vector2 moveVector)
+    private void MovePlayer()
     {
-        Vector2 usedMoveVector = new Vector2(moveVector.x * CurrentPlayerSpeed, 0);
-        rb.AddForce(usedMoveVector, ForceMode2D.Impulse);
+        if (Mathf.Abs(currentMoveVector.x) == 1)
+        {
+            rb.linearVelocity = new Vector2(currentMoveVector.x * CurrentPlayerSpeed, rb.linearVelocity.y);
+        }
+        else 
+        {
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+        }
+    }
+    private void UpdateMoveVector(Vector2 moveVector)
+    {
+        currentMoveVector = moveVector;
     }
     private void SpeedHandlerPlayer()
     {
