@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Collectable
+  - Ground
+  - Enemy
+  - End level
   layers:
   - Default
   - TransparentFX

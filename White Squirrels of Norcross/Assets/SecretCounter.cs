@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SecretCounter : MonoBehaviour
 {
-    public int numberOfSecretsFound;
+    public static int numberOfSecretsFound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
