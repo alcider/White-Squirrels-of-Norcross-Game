@@ -32,6 +32,15 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
     
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Destroy(other.gameObject);
+            //Must change the Destroy() function for a tp so the player doesn't die eternally.
+        }
+    }
     IEnumerator StartMovement()
     {
         while (inCamera)
