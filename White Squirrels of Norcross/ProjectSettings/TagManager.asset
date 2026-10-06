@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Enemy
   - End level
+  - demo
   layers:
   - Default
   - TransparentFX
