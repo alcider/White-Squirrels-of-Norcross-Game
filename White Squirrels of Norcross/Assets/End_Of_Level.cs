@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class End_Of_Level : MonoBehaviour
 {
@@ -14,9 +15,11 @@ public class End_Of_Level : MonoBehaviour
     private int finalSecrets;
     private int minutes;
     private int seconds;
-    public GameObject EndLevelTrigger;
     private int finalMinutes;
     private int finalSeconds;
+    Scene scene;
+    public static int x;
+    public static int y;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -45,7 +48,6 @@ public class End_Of_Level : MonoBehaviour
             {
                 time.text = "Time: " + finalMinutes + ":" + finalSeconds;
             }
-            EndLevelTrigger.SetActive(false);
         }
     }
 
@@ -60,8 +62,8 @@ public class End_Of_Level : MonoBehaviour
             seconds = timeToBeat % 60;
             numcorns = collect.numAcorns + BigAcorns.numberAcorns;
             numofsecretsfound = SecretCounter.numberOfSecretsFound;
-            Acorns.text = "Acorns: " + numcorns;
-            secrets.text = "Secrets: " + numofsecretsfound;
+            Acorns.text = "Acorns: " + numcorns + "/" + x;
+            secrets.text = "Secrets: " + numofsecretsfound + "/" + y;
             if (seconds.ToString().Length == 1)
             {
                 time.text = "Time: " + minutes + ":0" + seconds;
