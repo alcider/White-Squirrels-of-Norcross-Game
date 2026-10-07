@@ -6,7 +6,7 @@ public class EnemyTracking : MonoBehaviour
     public int speed;
     void Start()
     {
-        speed = 3;
+        speed = 0;
         StartCoroutine(Info());
     }
     IEnumerator Info()
@@ -31,5 +31,13 @@ public class EnemyTracking : MonoBehaviour
     void OnCollisionExit2D(Collision2D other)
     {
         speed = 3;
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+     {
+        speed = 3;
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        speed = 0;
     }
 }

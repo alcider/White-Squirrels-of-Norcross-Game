@@ -16,7 +16,7 @@ public class ScooterSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(movementScript.inCamera);
+
     }
     IEnumerator SpawnerStart()
     {
@@ -34,14 +34,7 @@ public class ScooterSpawner : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Destroy(other.gameObject);
-            //Must change the Destroy() function for a tp so the player doesn't die eternally.
-        }
-    }
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("MainCamera"))

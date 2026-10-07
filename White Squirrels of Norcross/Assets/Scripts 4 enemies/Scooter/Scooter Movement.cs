@@ -33,7 +33,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
