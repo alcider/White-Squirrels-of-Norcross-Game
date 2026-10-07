@@ -10,10 +10,13 @@ public class End_Of_Level : MonoBehaviour
     public int numcorns;
     public int numofsecretsfound;
     public GameObject endingScreen;
-    public int finalTime;
-    private int finaltime;
     private int finalAcorns;
     private int finalSecrets;
+    private int minutes;
+    private int seconds;
+    public GameObject EndLevelTrigger;
+    private int finalMinutes;
+    private int finalSeconds;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,15 +28,24 @@ public class End_Of_Level : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("End Level"))
+        if (collision.gameObject.CompareTag("End level"))
         {
-            finaltime = timeToBeat;
+            finalMinutes = minutes;
+            finalSeconds = seconds;
             timeToBeat = 0;
             finalAcorns = numcorns;
             finalSecrets = numofsecretsfound;
             Acorns.text = "Acorns: " + finalAcorns;
-            secrets.text = "Secrets found: " + finalSecrets;
-            time.text = "Time: " + finaltime;
+            secrets.text = "Secrets: " + finalSecrets;
+            if (seconds.ToString().Length == 1)
+            {
+                time.text = "Time: " + finalMinutes + ":0" + finalSeconds;
+            }
+            else
+            {
+                time.text = "Time: " + finalMinutes + ":" + finalSeconds;
+            }
+            EndLevelTrigger.SetActive(false);
         }
     }
 
@@ -41,10 +53,22 @@ public class End_Of_Level : MonoBehaviour
     void Update()
     {
             timeToBeat = (int)(Time.realtimeSinceStartup);
+            if (timeToBeat >= 60)
+            {
+                minutes = timeToBeat / 60;
+            }
+            seconds = timeToBeat % 60;
             numcorns = collect.numAcorns + BigAcorns.numberAcorns;
             numofsecretsfound = SecretCounter.numberOfSecretsFound;
             Acorns.text = "Acorns: " + numcorns;
-            secrets.text = "Secrets found: " + numofsecretsfound;
-            time.text = "Time: " + timeToBeat;
+            secrets.text = "Secrets: " + numofsecretsfound;
+            if (seconds.ToString().Length == 1)
+            {
+                time.text = "Time: " + minutes + ":0" + seconds;
+            }
+            else
+            {
+                time.text = "Time: " + minutes + ":" + seconds;
+            }
     }
 }
