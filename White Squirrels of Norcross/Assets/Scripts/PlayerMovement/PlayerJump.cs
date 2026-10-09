@@ -1,5 +1,6 @@
 using UnityEngine;
-
+using System;
+using System.Collections;
 public class PlayerJump : MonoBehaviour
 {
 
@@ -38,8 +39,21 @@ public class PlayerJump : MonoBehaviour
 
     private void UpdateIsGrounded()
     {
-       float raycastDistance = 0.1f;
-       IsGrounded = Physics2D.Raycast(FloorLocation.position, Vector2.down, raycastDistance, FloorLayer);
+        float raycastDistance = 0.1f;
+        bool RealIsGrounded = Physics2D.Raycast(FloorLocation.position, Vector2.down, raycastDistance, FloorLayer);
+        if (RealIsGrounded)
+        {
+            IsGrounded = true;
+        }
+        else
+        {
+            StartCoroutine(SetIsGroundedFalseTimer());
+        }
+    }
+    private IEnumerator SetIsGroundedFalseTimer()
+    {
+        yield return new WaitForSeconds(0.1f);
+        IsGrounded = false;
     }
 
     private void UpdateJumpsLeft()
