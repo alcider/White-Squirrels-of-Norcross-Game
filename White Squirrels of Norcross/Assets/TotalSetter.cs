@@ -27,5 +27,10 @@ public class TotalSetter : MonoBehaviour
             End_Of_Level.y = 5;
             End_Of_Level.x = 314;
         }
+        if (BuildIndex == 2)
+        {
+            End_Of_Level.y = 5;
+            End_Of_Level.x = 215;
+        }
     }
 }

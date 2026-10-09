@@ -13,6 +13,7 @@ public class checkpoint : MonoBehaviour
         if (collider.gameObject.CompareTag("Player"))
         {
             teleport.playerLocation = new Vector2(transform.position.x, transform.position.y);
+            Destroy(gameObject);
         }
     }
 
