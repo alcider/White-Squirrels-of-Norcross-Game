@@ -32,5 +32,6 @@ public class TotalSetter : MonoBehaviour
             End_Of_Level.y = 5;
             End_Of_Level.x = 215;
         }
+        Destroy(gameObject);
     }
 }

@@ -29,7 +29,7 @@ public class End_Of_Level : MonoBehaviour
         endingScreen.SetActive(true);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    /*void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("End level"))
         {
@@ -49,7 +49,7 @@ public class End_Of_Level : MonoBehaviour
                 time.text = "Time: " + finalMinutes + ":" + finalSeconds;
             }
         }
-    }
+    }*/
 
     // Update is called once per frame
     void Update()
