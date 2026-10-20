@@ -10,7 +10,6 @@ public class End_Of_Level : MonoBehaviour
     public int timeToBeat;
     public int numcorns;
     public int numofsecretsfound;
-    public GameObject endingScreen;
     private int finalAcorns;
     private int finalSecrets;
     private int minutes;
@@ -26,7 +25,6 @@ public class End_Of_Level : MonoBehaviour
         Acorns.gameObject.SetActive(true);
         secrets.gameObject.SetActive(true);
         time.gameObject.SetActive(true);
-        endingScreen.SetActive(true);
     }
 
     /*void OnCollisionEnter2D(Collision2D collision)
