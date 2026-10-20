@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &21888408
 SpriteRenderer:
@@ -816,7 +816,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 130.11371
@@ -921,7 +921,7 @@ PrefabInstance:
     - target: {fileID: 8778500493424140747, guid: 91f9d4363e9b97848ae67b10f6df47b8, type: 3}
       propertyPath: acorncollectioncounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &104696914
 SpriteRenderer:
@@ -1087,7 +1087,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 133.37001
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &119897437
 SpriteRenderer:
@@ -1691,7 +1691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &150061950
 SpriteRenderer:
@@ -1914,7 +1914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &175668863
 SpriteRenderer:
@@ -2043,7 +2043,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 96.7
@@ -2104,7 +2104,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 142.104
@@ -2312,7 +2312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!61 &190285760
 BoxCollider2D:
@@ -2371,7 +2371,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 94
@@ -2452,7 +2452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &198122453
 SpriteRenderer:
@@ -2581,7 +2581,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 158.37999
@@ -2699,7 +2699,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 158.39
@@ -2760,7 +2760,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 159.43
@@ -2890,7 +2890,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 116.33
@@ -3035,7 +3035,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.96631
@@ -3153,7 +3153,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 132.3
@@ -3214,7 +3214,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.98
@@ -3275,7 +3275,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 159.5
@@ -3763,7 +3763,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 114.06
@@ -3824,7 +3824,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 95.67
@@ -3946,7 +3946,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.2
@@ -4377,7 +4377,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 96.43
@@ -4629,7 +4629,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 112.86
@@ -4690,7 +4690,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 75.77
@@ -5066,7 +5066,7 @@ PrefabInstance:
     - target: {fileID: 8778500493424140747, guid: 91f9d4363e9b97848ae67b10f6df47b8, type: 3}
       propertyPath: acorncollectioncounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5299,7 +5299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NumberOfAcorns: 0
-  acorncollectioncounter: {fileID: 1211878396}
+  acorncollectioncounter: {fileID: 0}
 --- !u!212 &529426986
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5427,7 +5427,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 144.235
@@ -5545,7 +5545,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 74.61
@@ -5732,7 +5732,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 146.346
@@ -5793,7 +5793,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 147.392
@@ -5898,7 +5898,7 @@ PrefabInstance:
     - target: {fileID: 8778500493424140747, guid: 91f9d4363e9b97848ae67b10f6df47b8, type: 3}
       propertyPath: acorncollectioncounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6114,7 +6114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &719255147
 SpriteRenderer:
@@ -6300,7 +6300,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 64.71564
@@ -6475,7 +6475,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 148.458
@@ -6597,7 +6597,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 132.31369
@@ -6702,7 +6702,7 @@ PrefabInstance:
     - target: {fileID: 8778500493424140747, guid: 91f9d4363e9b97848ae67b10f6df47b8, type: 3}
       propertyPath: acorncollectioncounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6719,7 +6719,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 132.3
@@ -6780,7 +6780,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 111.69895
@@ -6841,7 +6841,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 73.29656
@@ -7150,7 +7150,7 @@ PrefabInstance:
     - target: {fileID: 8778500493424140747, guid: 91f9d4363e9b97848ae67b10f6df47b8, type: 3}
       propertyPath: acorncollectioncounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7167,7 +7167,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.19371
@@ -7423,7 +7423,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.20001
@@ -7598,7 +7598,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 94.85
@@ -7728,7 +7728,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 138.914
@@ -7789,7 +7789,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 143.156
@@ -7940,7 +7940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!61 &971652127
 BoxCollider2D:
@@ -7999,7 +7999,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.2137
@@ -8117,7 +8117,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 76.9
@@ -8292,7 +8292,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 139.953
@@ -8487,7 +8487,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 130.1337
@@ -8548,7 +8548,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 135.755
@@ -8626,7 +8626,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 133.3837
@@ -8687,7 +8687,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 79.14
@@ -8748,7 +8748,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 134.688
@@ -8899,7 +8899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!61 &1159417398
 BoxCollider2D:
@@ -9342,17 +9342,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
---- !u!114 &1211878396 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7207148539198569865, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-  m_PrefabInstance: {fileID: 4258433959808625638}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1238973469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9364,7 +9353,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 92.33039
@@ -9425,7 +9414,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 130.12001
@@ -9497,7 +9486,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 117.48
@@ -9761,7 +9750,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 115.2
@@ -9842,7 +9831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &1283289205
 SpriteRenderer:
@@ -10177,7 +10166,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 136.808
@@ -10611,7 +10600,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 133.36371
@@ -10802,7 +10791,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 137.882
@@ -10883,7 +10872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &1402646172
 SpriteRenderer:
@@ -11130,7 +11119,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 145.287
@@ -11325,7 +11314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &1442213304
 SpriteRenderer:
@@ -11454,7 +11443,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 158.39
@@ -11515,7 +11504,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 133.37001
@@ -11576,7 +11565,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 133.37001
@@ -11637,7 +11626,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.20001
@@ -11742,7 +11731,7 @@ PrefabInstance:
     - target: {fileID: 8778500493424140747, guid: 91f9d4363e9b97848ae67b10f6df47b8, type: 3}
       propertyPath: acorncollectioncounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11945,7 +11934,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 133.60045
@@ -12006,7 +11995,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70.61505
@@ -12067,7 +12056,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 159.48
@@ -12286,7 +12275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &1641561046
 SpriteRenderer:
@@ -12415,7 +12404,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 71.9558
@@ -12545,7 +12534,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 78.03
@@ -12663,7 +12652,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.20001
@@ -12724,7 +12713,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.19371
@@ -12908,7 +12897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &1708356613
 SpriteRenderer:
@@ -13056,7 +13045,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 130.12001
@@ -13137,7 +13126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &1752329607
 SpriteRenderer:
@@ -13266,7 +13255,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.20001
@@ -13327,7 +13316,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 130.12001
@@ -13616,7 +13605,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.20001
@@ -13900,7 +13889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &1906124020
 SpriteRenderer:
@@ -14029,7 +14018,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.96
@@ -14090,7 +14079,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.96631
@@ -14171,7 +14160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef108a4b91c2b3418e8f9b95a233507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acornCounter: {fileID: 1211878396}
+  acornCounter: {fileID: 0}
   NumberAcorns: 0
 --- !u!212 &1924096405
 SpriteRenderer:
@@ -14300,7 +14289,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.96631
@@ -14703,7 +14692,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 132.3
@@ -15081,7 +15070,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 132.2937
@@ -15142,7 +15131,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.20001
@@ -15203,7 +15192,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.2137
@@ -15264,7 +15253,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 141.019
@@ -15469,7 +15458,7 @@ PrefabInstance:
     - target: {fileID: 8778500493424140747, guid: 91f9d4363e9b97848ae67b10f6df47b8, type: 3}
       propertyPath: acorncollectioncounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15732,103 +15721,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5259cf4c795f4524fa96a1e711b904c4, type: 3}
---- !u!1001 &4258433959808625638
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1197388145287116418, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2421767156904558772, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
-      propertyPath: m_Name
-      value: Canvas
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 900ce2715a0dea14fac95489be78b0b4, type: 3}
 --- !u!1001 &5453423676224164198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15840,7 +15732,7 @@ PrefabInstance:
     - target: {fileID: 3960604636758068156, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: acornCounter
       value: 
-      objectReference: {fileID: 1211878396}
+      objectReference: {fileID: 0}
     - target: {fileID: 4927693982774576794, guid: c7e8ad78499deca48bd63ffe98e47c34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.41
@@ -16227,7 +16119,6 @@ SceneRoots:
   - {fileID: 1171686794}
   - {fileID: 1976622738}
   - {fileID: 6710139752177783061}
-  - {fileID: 4258433959808625638}
   - {fileID: 1287662213}
   - {fileID: 337129450}
   - {fileID: 898780892}
