@@ -15847,6 +15847,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2934474209360616931, guid: d40614d6faf40464798bacce2b39c4d3, type: 3}
+      propertyPath: CurrentExtraJumpsLeft
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3099239756798874196, guid: d40614d6faf40464798bacce2b39c4d3, type: 3}
       propertyPath: time
       value: 
