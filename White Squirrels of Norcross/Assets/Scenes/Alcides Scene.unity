@@ -1491,6 +1491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 748552679}
+  - component: {fileID: 748552680}
   m_Layer: 0
   m_Name: UI Manager
   m_TagString: Untagged
@@ -1514,6 +1515,19 @@ Transform:
   - {fileID: 499647579}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &748552680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748552678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7faf7d0c6cab055498000da556fa6414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AcornCounterUI: {fileID: 0}
 --- !u!4 &753806553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7650093544153740373, guid: 43f707a71a2e4c44192da1bbadd6db6d, type: 3}
@@ -4356,6 +4370,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1450425106520650970, guid: 881e7c675a331df4583a7f258b45b1ac, type: 3}
+      propertyPath: CurrentExtraJumpsLeft
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810037423181280340, guid: 881e7c675a331df4583a7f258b45b1ac, type: 3}
+      propertyPath: Damping.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3368708885769483405, guid: 881e7c675a331df4583a7f258b45b1ac, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 247.89355
@@ -4403,6 +4425,10 @@ PrefabInstance:
     - target: {fileID: 5121330199988707992, guid: 881e7c675a331df4583a7f258b45b1ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7450354058676763147, guid: 881e7c675a331df4583a7f258b45b1ac, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7499666237207440983, guid: 881e7c675a331df4583a7f258b45b1ac, type: 3}
       propertyPath: m_AnchoredPosition.y
