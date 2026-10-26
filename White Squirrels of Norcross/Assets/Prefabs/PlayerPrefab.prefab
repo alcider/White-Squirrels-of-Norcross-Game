@@ -176,7 +176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 569.2372, y: 247.89374}
+  m_AnchoredPosition: {x: 569.2372, y: 247.89355}
   m_SizeDelta: {x: 41.6667, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2811924815383999753
@@ -375,7 +375,7 @@ MonoBehaviour:
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 0.5, y: 0.5, z: 0.5}
+  Damping: {x: 0.5, y: 1.5, z: 0.5}
   Lookahead:
     Enabled: 0
     Time: 0
@@ -661,7 +661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 369.23718, y: 247.89374}
+  m_AnchoredPosition: {x: 369.23718, y: 247.89355}
   m_SizeDelta: {x: 41.6667, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4291350161044835398
@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 1450425106520650970}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   FloorLayer:
     serializedVersion: 2
     m_Bits: 64
-  CurrentJumpsLeft: 1
+  CurrentExtraJumpsLeft: 4
 --- !u!1 &8645048577092043473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,7 +1288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1564.815, y: 238.21025}
+  m_AnchoredPosition: {x: 1564.815, y: 238.21045}
   m_SizeDelta: {x: 41.6667, y: 57.3684}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6726305716354957601
