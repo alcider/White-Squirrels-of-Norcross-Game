@@ -24,5 +24,6 @@ public class collect : MonoBehaviour
     void Update()
     {
         NumberAcorns = numAcorns + BigAcorns.numberAcorns;
+        Total_Acorns.totalAcorns += NumberAcorns;
     }
 }
