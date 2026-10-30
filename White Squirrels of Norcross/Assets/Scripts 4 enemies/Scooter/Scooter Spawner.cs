@@ -25,7 +25,6 @@ public class ScooterSpawner : MonoBehaviour
             if (movementScript.inCamera == true)
             {
                 Instantiate(scooter, parent);
-                yield return new WaitForSeconds(20);
             }
             else
             {
