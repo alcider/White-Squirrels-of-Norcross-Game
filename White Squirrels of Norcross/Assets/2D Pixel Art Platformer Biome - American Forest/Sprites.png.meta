@@ -471,10 +471,10 @@ TextureImporter:
       name: TileGround1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 160
-        width: 15
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,7 +496,7 @@ TextureImporter:
         x: 32
         y: 160
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,7 +583,7 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 144
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -626,9 +626,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 129
+        y: 128
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,9 +648,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 129
-        width: 15
-        height: 15
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
