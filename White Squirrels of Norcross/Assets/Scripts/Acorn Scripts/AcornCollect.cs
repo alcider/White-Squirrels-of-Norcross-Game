@@ -7,6 +7,10 @@ public class AcornCollect : MonoBehaviour
 
     //int variable which holds current Acorn value.
     [SerializeField] int AcornValue;
+    public int AcornVal
+    {
+        get => AcornValue;
+    }
 
     /*This method checks if whatever objects which enters the trigger, has the Player Tag. If so, the 
     OnAcornPickUp C# event is invoked, sending AcornValue with it, and deleting the current game object. RIP :(

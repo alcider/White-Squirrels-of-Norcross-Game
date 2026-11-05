@@ -13,14 +13,16 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     void Update()
     {
-        
+        if (inCamera)
+        {
+            StartMovement();
+        }
     }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("MainCamera"))
         {
             inCamera = true;
-            StartCoroutine(StartMovement());
         }
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -41,12 +43,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
             //Must change the Destroy() function for a tp so the player doesn't die eternally.
         }
     }
-    IEnumerator StartMovement()
+    void StartMovement()
     {
-        while (inCamera)
-        {
-            yield return new WaitForSeconds(0.01f);
-            transform.Translate(Vector2.left * Time.deltaTime * speed);
-        }
+        transform.Translate(Vector2.left * Time.deltaTime * speed);
     }
 }
