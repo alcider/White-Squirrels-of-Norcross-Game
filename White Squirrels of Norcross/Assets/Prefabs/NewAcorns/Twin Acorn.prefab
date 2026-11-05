@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 8369984387724314124}
   - component: {fileID: 5608699294972925671}
   - component: {fileID: 6739258612453522010}
+  - component: {fileID: 7541422014188854860}
   m_Layer: 0
   m_Name: Twin Acorn
   m_TagString: Untagged
@@ -181,6 +182,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AcornValue: 5
+--- !u!114 &7541422014188854860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218873226977883753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fd054a79aaf7840b6e37c768069b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acornScript: {fileID: 6739258612453522010}
 --- !u!1 &8067020085412236008
 GameObject:
   m_ObjectHideFlags: 0

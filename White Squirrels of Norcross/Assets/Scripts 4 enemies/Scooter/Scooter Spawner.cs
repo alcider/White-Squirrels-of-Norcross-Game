@@ -8,29 +8,24 @@ public class ScooterSpawner : MonoBehaviour
     public GameObject scooter;
     private bool ableToStart;
     public Transform parent;
+    float ElaspedTime = 0f;
     void Start()
     {
-        StartCoroutine(SpawnerStart());
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        SpawnerStart();
     }
-    IEnumerator SpawnerStart()
+    void SpawnerStart()
     {
-        while (true)
+        ElaspedTime += Time.deltaTime;
+
+        if (movementScript.inCamera == true && ElaspedTime >= 1f)
         {
-            if (movementScript.inCamera == true)
-            {
-                Instantiate(scooter, parent);
-                yield return new WaitForSeconds(1);
-            }
-            else
-            {
-                yield return new WaitForSeconds(1);
-            }
+            Instantiate(scooter, parent);
+            ElaspedTime = 0f;
         }
     }
 
