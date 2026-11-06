@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections;
 public class ScoreManager : MonoBehaviour
 {
     //C# events, used to send int values to anything subscirbed.
@@ -34,12 +35,13 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
-        
+        StartCoroutine(InitalInfoUpdate());
+
     }
 
     void Update()
     {
-        
+
     }
 
     /*This method adds to  the TotalAcorns variable with the int AmtOfAcorns, and invokes
@@ -59,11 +61,16 @@ public class ScoreManager : MonoBehaviour
     private void UpdateTotalAcornAmt(int AmtOfAcorns)
     {
         TotalAcornsInital += AmtOfAcorns;
-        OnAcornIntialGet?.Invoke(TotalAcornsInital);
     }
     private void UpdateTotalSecrets()
     {
         TotalSecrets += 1;
+    }
+    private IEnumerator InitalInfoUpdate()
+    {
+        yield return new WaitForSeconds(1f);
+        OnAcornIntialGet?.Invoke(TotalAcornsInital);
         OnSecretIntialGet?.Invoke(TotalSecrets);
+
     }
 }

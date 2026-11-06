@@ -12,7 +12,7 @@
     "CpuMinTargetX64": 0,
     "CpuMaxTargetX64": 0,
     "CpuTargetsArm64": -1,
-    "OptimizeFor": 0,
+    "OptimizeFor": 1,
     "FloatMode": 0,
     "StackProtector": 0,
     "StackProtectorBufferSize": 30
