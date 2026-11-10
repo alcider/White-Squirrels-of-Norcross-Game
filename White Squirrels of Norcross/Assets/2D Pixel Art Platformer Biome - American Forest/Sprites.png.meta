@@ -477,7 +477,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 0, w: 1}
       customData: 
       outline: []
       physicsShape: []
@@ -517,8 +517,8 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 160
-        width: 15
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: TileGround7
       rect:
         serializedVersion: 2
-        x: 17
-        y: 129
-        width: 15
-        height: 15
+        x: 16
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2187,13 +2187,13 @@ TextureImporter:
       name: Sprites_2
       rect:
         serializedVersion: 2
-        x: 10
-        y: 117
-        width: 53
-        height: 69
+        x: 16
+        y: 128
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 7, y: 12, z: 0, w: 11}
+      border: {x: 0, y: 0, z: 0, w: 11}
       customData: 
       outline: []
       physicsShape: []
@@ -2210,7 +2210,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 129
+        y: 128
         width: 48
         height: 47
       alignment: 0
@@ -2223,6 +2223,50 @@ TextureImporter:
       bones: []
       spriteID: 2e1b6d62969b3de4f81d77f6454cc8f6
       internalID: 1461275340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a04e7cdb9f17854fab2e812094967b6
+      internalID: -1735360969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee75f64b271147045b7786055ac69118
+      internalID: 1776499720
       vertices: []
       indices: 
       edges: []
@@ -2255,6 +2299,8 @@ TextureImporter:
       Sprites_1: -163623637
       Sprites_2: 931343417
       Sprites_3: 1461275340
+      Sprites_4: -1735360969
+      Sprites_5: 1776499720
       Stone1: 1746087828
       Stone2: -2145294881
       Stone3: -1019068024
