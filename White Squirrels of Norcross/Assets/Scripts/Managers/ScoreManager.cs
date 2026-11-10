@@ -3,74 +3,81 @@ using System;
 using System.Collections;
 public class ScoreManager : MonoBehaviour
 {
-    //C# events, used to send int values to anything subscirbed.
+    //C# events, used to send int values to anything subscribed.
     public static event Action<int> OnAcornGet;
     public static event Action<int> OnSecretFound;
-    public static event Action<int> OnAcornIntialGet;
-    public static event Action<int> OnSecretIntialGet;
+    public static event Action<int> OnAcornLaunchGet;
+    public static event Action<int> OnSecretLaunchGet;
     //Variable which is normally PRIVATE, used to hold player collectables and score.
     public int TotalAcornsCollected;
     public int TotalSecretsFound;
 
     [Header("---Values Already Found---")]
-    public int TotalAcornsInital;
+    public int TotalAcornsInitial;
     public int TotalSecrets;
 
     //OnEnable and OnDisable method, used to subscribe and unsubscribe to certain C# events.
     void OnEnable()
     {
-        AcornCollect.OnAcornPickUp += UpdateTotalAcornAmtCollected;
-        SecretWall.OnSecretWallFound += UpdateTotalSecretsFound;
-        AcornValSender.OnAcornInitalVals += UpdateTotalAcornAmt;
-        SecretValSender.OnSecretFoundInital += UpdateTotalSecrets;
+        AcornCollect.OnAcornPickUp += UpdateAcornAmtCollected;
+        SecretWall.OnSecretWallFound += UpdateSecretsFound;
+        AcornValSender.OnAcornInitialVals += UpdateLaunchAcornAmt;
+        SecretValSender.OnSecretFoundLaunch += UpdateLaunchSecrets;
     }
     void OnDisable()
     {
-        AcornCollect.OnAcornPickUp -= UpdateTotalAcornAmtCollected;
-        SecretWall.OnSecretWallFound -= UpdateTotalSecretsFound;
-        AcornValSender.OnAcornInitalVals -= UpdateTotalAcornAmt;
-        SecretValSender.OnSecretFoundInital -= UpdateTotalSecrets;
+        AcornCollect.OnAcornPickUp -= UpdateAcornAmtCollected;
+        SecretWall.OnSecretWallFound -= UpdateSecretsFound;
+        AcornValSender.OnAcornInitialVals -= UpdateLaunchAcornAmt;
+        SecretValSender.OnSecretFoundLaunch -= UpdateLaunchSecrets;
     }
 
 
     void Start()
     {
-        StartCoroutine(InitalInfoUpdate());
-
+        StartCoroutine(InitialInfoUpdate());
     }
 
-    void Update()
-    {
-
-    }
 
     /*This method adds to  the TotalAcorns variable with the int AmtOfAcorns, and invokes
     the c# event OnAcornGet, sending TotalAcorns.
     */
     //AKA, this methods adds AmtOfAcorns to the total acorns the player has, and sends that to whoever is subscirbed.
-    private void UpdateTotalAcornAmtCollected(int AmtOfAcorns)
+    private void UpdateAcornAmtCollected(int AmtOfAcorns)
     {
         TotalAcornsCollected += AmtOfAcorns;
         OnAcornGet?.Invoke(TotalAcornsCollected);
     }
-    private void UpdateTotalSecretsFound()
+    //Method does simialr to UpdateTotalAcornAmtCollected, just with secrets
+    private void UpdateSecretsFound()
     {
         TotalSecretsFound += 1;
         OnSecretFound?.Invoke(TotalSecretsFound);
     }
-    private void UpdateTotalAcornAmt(int AmtOfAcorns)
+    //-----------
+
+    /*This method updates the total acorns within the level at launch,
+     * and stores them within the script.
+     */
+    private void UpdateLaunchAcornAmt(int AmtOfAcorns)
     {
-        TotalAcornsInital += AmtOfAcorns;
+        TotalAcornsInitial += AmtOfAcorns;
     }
-    private void UpdateTotalSecrets()
+    //This method does simialr to UpdateTotalAcornsAmt, just for secrets at launch.
+    private void UpdateLaunchSecrets()
     {
         TotalSecrets += 1;
     }
-    private IEnumerator InitalInfoUpdate()
+
+    /* This method is used to very lazily combat race condition.
+     * As much as I want to send the total acorns and secrets at launch at start, some values may be lost
+     * within a frame, so I delay sending the values for a second. lamo
+     */
+    private IEnumerator InitialInfoUpdate()
     {
         yield return new WaitForSeconds(1f);
-        OnAcornIntialGet?.Invoke(TotalAcornsInital);
-        OnSecretIntialGet?.Invoke(TotalSecrets);
+        OnAcornLaunchGet?.Invoke(TotalAcornsInitial);
+        OnSecretLaunchGet?.Invoke(TotalSecrets);
 
     }
 }

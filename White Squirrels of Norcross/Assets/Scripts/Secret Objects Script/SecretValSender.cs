@@ -2,9 +2,13 @@ using UnityEngine;
 using System;
 public class SecretValSender : MonoBehaviour
 {
-    public static event Action OnSecretFoundInital;
+    //C# events, used to indicate when secret found.
+    public static event Action OnSecretFoundLaunch;
     void Start()
     {
-        OnSecretFoundInital?.Invoke();
+        OnSecretFoundLaunch?.Invoke();
     }
+    /*The purpose of the valsender script is to tally
+     * how many secrets are in the level
+     */
 }

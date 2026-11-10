@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Ben-Whitebox-Level-3.unity
     guid: bdbe541a93cb84f4faccc4055390edaa
   - enabled: 1
-    path: Assets/Scenes/Alcides Scene.unity
+    path: Assets/Scenes/Alcides Test Scene.unity
     guid: 7d718276d7ddbfc429672f92eea5d811
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

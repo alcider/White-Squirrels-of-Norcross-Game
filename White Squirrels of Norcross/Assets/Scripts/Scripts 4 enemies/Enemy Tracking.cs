@@ -13,7 +13,6 @@ public class EnemyTracking : MonoBehaviour
     {
         while(true)
         {
-            Debug.Log(speed);
             yield return new WaitForSeconds(0.5f);
         }
     }
