@@ -4,7 +4,7 @@ using System.Collections;
 public class ScooterSpawner : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] private NewMonoBehaviourScript movementScript;
+    [SerializeField] private ScooterMovement movementScript;
     public GameObject scooter;
     private bool ableToStart;
     public Transform parent;

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class ScooterMovement: MonoBehaviour
 {
     public bool inCamera;
     public float speed;

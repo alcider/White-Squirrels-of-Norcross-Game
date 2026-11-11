@@ -6,7 +6,7 @@ public class PlayerJump : MonoBehaviour
 
     [SerializeField] float CurrentJumpForce; // Variable on how hard the player jumps
     [SerializeField] Transform FloorLocation; // Variable on the location of the players feet (typically as child of player capsule )
-    [SerializeField] LayerMask FloorLayer; // Variable of Layermask of floors in game
+    [SerializeField] LayerMask AcceptableLayers; // Variable of Layermask of floors in game
     [SerializeField] int CurrentExtraJumpsLeft; //Variable which holds how many jumps left
     int InitalExtraJumps; //Variable used to hold the inital jumps left
     bool IsGrounded; //Variable used to check if player is grounded
@@ -41,7 +41,7 @@ public class PlayerJump : MonoBehaviour
     private void UpdateIsGrounded()
     {
         float raycastDistance = 0.1f;
-        bool RealIsGrounded = Physics2D.Raycast(FloorLocation.position, Vector2.down, raycastDistance, FloorLayer);
+        bool RealIsGrounded = Physics2D.Raycast(FloorLocation.position, Vector2.down, raycastDistance, AcceptableLayers);
         if (RealIsGrounded)
         {
             //If raycast detects object that has the FloorLayer matrix, itll set IsGrounded to true
