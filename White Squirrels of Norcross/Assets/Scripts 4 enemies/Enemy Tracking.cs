@@ -21,23 +21,30 @@ public class EnemyTracking : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
     }
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        if(other.gameObject.CompareTag("Player"))
-        {
-            speed = 0;
-        }
-    }
+    //void OnCollisionEnter2D(Collision2D other)
+    //{
+    //    if(other.gameObject.CompareTag("Player"))
+    //    {
+    //        speed = 0;
+    //   }
+    //}
     void OnCollisionExit2D(Collision2D other)
     {
         speed = 3;
     }
     private void OnTriggerEnter2D(Collider2D other)
      {
-        speed = 3;
+        if(other.gameObject.CompareTag("Player"))
+        {
+            speed = 3;
+        }
+            
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        speed = 0;
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            speed = 0;
+        }
     }
 }
