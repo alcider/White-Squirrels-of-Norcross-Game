@@ -8,7 +8,7 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] Transform FloorLocation; // Variable on the location of the players feet (typically as child of player capsule )
     [SerializeField] LayerMask AcceptableLayers; // Variable of Layermask of floors in game
     [SerializeField] int CurrentExtraJumpsLeft; //Variable which holds how many jumps left
-    int InitalExtraJumps; //Variable used to hold the inital jumps left
+    int InitalExtraJumps; //Variable used to hold the initial jumps left
     bool IsGrounded; //Variable used to check if player is grounded
     Rigidbody2D rb; //Rigidbody variable
 

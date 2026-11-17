@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-    GameObject PlayerObj;
-    [SerializeField] GameObject EnemyUpperBody;
-    [SerializeField] float EnemySpeed;
-    bool isPlayerNear;
+    GameObject PlayerObj; //GameObject variable which holds reference to player prefab.
+    [SerializeField] GameObject EnemyUpperBody; //Another GameObject variable which holds reference to parent GameObject.
+    [SerializeField] float EnemySpeed; //Float variable to hold ideal player speed
+    bool isPlayerNear; //Bool to know if player is in radius
 
-
+    //Subscription to certain c# events.
     private void OnEnable()
     {
         PlayerValSender.OnPlayerLaunch += SetPlayerObj;
@@ -30,9 +30,15 @@ public class EnemyFollow : MonoBehaviour
             FollowPlayer();
         }
     }
+
+    // Method is subscribed to OnPlayerLaunch, to get reference to player on the get go.
     void SetPlayerObj(GameObject playerobj){
         PlayerObj = playerobj;}
 
+
+    /* Both OnTriggerEnter and Exit are used to toggle
+     * the isPlayerNear bool, to invoke movement
+     */
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -47,6 +53,7 @@ public class EnemyFollow : MonoBehaviour
             isPlayerNear = false;
         }
     }
+    
 
     void FollowPlayer()
     {
