@@ -30,7 +30,7 @@ public class TotalSetter : MonoBehaviour
         if (BuildIndex == 2)
         {
             End_Of_Level.y = 5;
-            End_Of_Level.x = 215;
+            End_Of_Level.x = 280;
         }
         Destroy(gameObject);
     }
