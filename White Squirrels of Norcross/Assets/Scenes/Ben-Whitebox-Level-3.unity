@@ -61036,6 +61036,10 @@ PrefabInstance:
       propertyPath: field of view
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 6695866702790264117, guid: 0b11aa697945b5d488590dd5920c814c, type: 3}
+      propertyPath: orthographic size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7027010138286844649, guid: 0b11aa697945b5d488590dd5920c814c, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -68507,6 +68511,10 @@ PrefabInstance:
     - target: {fileID: 2934474209360616931, guid: d40614d6faf40464798bacce2b39c4d3, type: 3}
       propertyPath: CurrentExtraJumpsLeft
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2934474209360616931, guid: d40614d6faf40464798bacce2b39c4d3, type: 3}
+      propertyPath: AcceptableLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 3099239756798874196, guid: d40614d6faf40464798bacce2b39c4d3, type: 3}
       propertyPath: time

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6695866702790264117}
   - component: {fileID: 1440469000877008070}
   - component: {fileID: 8733071782228710193}
+  - component: {fileID: 756914566392831647}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -102,7 +103,7 @@ Camera:
   far clip plane: 1000
   field of view: 70
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 8
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -192,7 +193,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -206,5 +207,17 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 27, y: 13}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &756914566392831647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7027010138286844649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aeece5df85bbbf4890d716b87549a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

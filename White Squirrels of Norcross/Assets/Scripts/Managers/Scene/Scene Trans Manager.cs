@@ -1,16 +1,29 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class SceneTransManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private void OnEnable()
+    {
+        SceneToggler.OnSceneLoad += TransitionScene;
+    }
+
+    private void OnDisable()
+    {
+        SceneToggler.OnSceneLoad -= TransitionScene;
+    }
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void TransitionScene(string SceneToTransition)
+    {
+        Debug.Log("yo");
+        SceneManager.LoadScene(SceneToTransition);
     }
 }

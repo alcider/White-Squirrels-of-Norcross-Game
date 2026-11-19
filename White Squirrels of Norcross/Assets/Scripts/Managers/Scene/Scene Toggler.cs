@@ -2,15 +2,11 @@ using UnityEngine;
 using System;
 public class SceneToggler : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public static event Action<String> OnSceneLoad;
+    [SerializeField] string SceneToLoad;
 
-    // Update is called once per frame
-    void Update()
+    public void SendSceneString()
     {
-        
+        OnSceneLoad?.Invoke(SceneToLoad);
     }
 }

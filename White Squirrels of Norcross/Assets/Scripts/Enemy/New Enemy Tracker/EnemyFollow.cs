@@ -14,7 +14,7 @@ public class EnemyFollow : MonoBehaviour
     }
     private void OnDisable()
     {
-        PlayerValSender.OnPlayerLaunch += SetPlayerObj;
+        PlayerValSender.OnPlayerLaunch -= SetPlayerObj;
     }
 
     void Start()

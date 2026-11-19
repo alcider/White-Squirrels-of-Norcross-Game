@@ -168,8 +168,8 @@ RectTransform:
   m_GameObject: {fileID: 4212531463098171417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 649010526929326465}
   m_Father: {fileID: 8584791112722352420}
@@ -301,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 5462468922962384128}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.57924867, y: 2.019505, z: -10}
+  m_LocalPosition: {x: 0.57924867, y: 12.019505, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -332,7 +332,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 70
-    OrthographicSize: 5
+    OrthographicSize: 8
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -653,8 +653,8 @@ RectTransform:
   m_GameObject: {fileID: 5983591355612730001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4107904173671342388}
   m_Father: {fileID: 8584791112722352420}
@@ -942,6 +942,7 @@ GameObject:
   - component: {fileID: 2911710267609373881}
   - component: {fileID: 379206004038651664}
   - component: {fileID: 1450425106520650970}
+  - component: {fileID: 8225756445082693538}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -958,7 +959,7 @@ Transform:
   m_GameObject: {fileID: 7450354058676763147}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.57924867, y: 2.019505, z: 0}
+  m_LocalPosition: {x: 0.57924867, y: 12.019505, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1111,10 +1112,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentJumpForce: 10
   FloorLocation: {fileID: 1897729365583258083}
-  FloorLayer:
+  AcceptableLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
   CurrentExtraJumpsLeft: 4
+--- !u!114 &8225756445082693538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450354058676763147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f861397cb7a4894bbe2f6fe8239f617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8645048577092043473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,8 +1293,8 @@ RectTransform:
   m_GameObject: {fileID: 8942839394466347601}
   m_LocalRotation: {x: -0, y: -0, z: 0.70710605, w: 0.70710754}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 661305220150420198}
   m_Father: {fileID: 8584791112722352420}
